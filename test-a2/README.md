@@ -1,20 +1,14 @@
-# ECE653: Software Testing Quality Assurance and Maintenance
-# Assignment 2, Friday, July 5, 2019
+# ECE653: Assignment 2
 
-+ a `user.yml` file with your UWaterloo user information;
-+ a single pdf file called `a2_sub.pdf`, including all text answers;
-+ a directory `a2q3` that includes code for Question 3;
-+ a directory `wlang` that includes code for Question 4.
+Replace FIRST_NAME, LAST_NAME, WATIAM, and STUDENT_ID, EMAIL in
+`user.yml` by your first and last name, WatIAM id, student number, and
+email, respectively. Note that your WatIAM id is the ID you use to
+login to Quest. Use plain ASCII characters as much as possible.
 
+Do not change the format of the file. We will parse it
+automatically. Only enter the information requested.
 
-### Coding part
-+ `./a2q3/coverage_tests.py` is unit test file which achieves node coverage, edge coverage, edge-pair coverage and prime path coverage for **Q3**.
+Commit your changes and submit on GitHub.
 
-+ `wlang` includes an implementation of a parser and interpreter for the **WHILE** language, coding `./wlang/test_int.py` to achieve `statement coverage` and `branch coverage` for the **Parse**, **Interpreter** and **AST** for **Q4**.
-
-
-   To compute branch coverage, use the following command:  
-   `(venv) $ coverage run --branch -m wlang.test`  
-   `(venv) $ coverage html`  
-   The result is stored in directory `hetmlcov`
-
+You can validate your yaml file using an online YAML parser:
+http://yaml-online-parser.appspot.com/
