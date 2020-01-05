@@ -16,6 +16,6 @@
    To compute branch coverage, use the following command:  
    `(venv) $ coverage run --branch -m wlang.test`  
    `(venv) $ coverage html`  
-   The result is stored in directory `hetmlcov`
+   The result is stored in directory `htmlcov`
    
 ### More details are in `./ece653-a1.pdf`
