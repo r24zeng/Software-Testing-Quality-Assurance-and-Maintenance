@@ -1,5 +1,5 @@
 # ECE653: Software Testing Quality Assurance and Maintenance
-# Assignment 2, Friday, July 26, 2019
+# Assignment 3, Friday, July 26, 2019
 
 + a `user.yml` file with your UWaterloo user information;
 + a single pdf file called `a3_sub.pdf`, including all text answers;
