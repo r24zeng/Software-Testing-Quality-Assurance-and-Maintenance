@@ -1,5 +1,5 @@
 # ECE653: Software Testing Quality Assurance and Maintenance
-# Assignment 1, Friday, July 5, 2019
+# Assignment 1, Friday, June 7, 2019
 
 + a `user.yml` file with your UWaterloo user information;
 + a single pdf file called `a2_sub.pdf`, including all text answers;
@@ -17,3 +17,5 @@
    `(venv) $ coverage run --branch -m wlang.test`  
    `(venv) $ coverage html`  
    The result is stored in directory `hetmlcov`
+   
+   **more details are in `./ece653-a1.pdf`
