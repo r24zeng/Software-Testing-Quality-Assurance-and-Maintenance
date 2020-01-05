@@ -18,4 +18,4 @@
    `(venv) $ coverage html`  
    The result is stored in directory `hetmlcov`
    
-### more details are in `./ece653-a1.pdf`
+### More details are in `./ece653-a1.pdf`
