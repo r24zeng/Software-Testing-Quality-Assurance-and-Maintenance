@@ -10,11 +10,12 @@
 ### Coding part
 + Adding **invariants** and **decreases** annotations by **dafny** to verify Q2 and 3 in `./dafny`
 + Extend the symbolic execution engine to a verification engine in `./wlang` and extend `./wlang/est_sym.py` to achieve 100% branch coverage for this imiplementation.  
+
    To run the test suites using:  
    `(venv) $ python -m wlang.test`  
    To compute branch coverage, use the following command:  
    `(venv) $ coverage run --branch -m wlang.test`  
    `(venv) $ coverage html`  
-   The result is stored in directory `hetmlcov`
+   The result is stored in directory `htmlcov`
    
 ### More details are in `./a3.pdf`
