@@ -2,7 +2,7 @@
 # Assignment 1, Friday, June 7, 2019
 
 + a `user.yml` file with your UWaterloo user information;
-+ a single pdf file called `a2_sub.pdf`, including all text answers;
++ a single pdf file called `a1_sub.pdf`, including all text answers;
 + a directory `a1q3` that includes code for Question 3;
 + a directory `wlang` that includes code for Question 4.
 
