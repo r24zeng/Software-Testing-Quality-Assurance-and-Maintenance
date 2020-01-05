@@ -1,0 +1,884 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">42%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">b</span>
+        <span class="key">p</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>20333</td>
+                <td>10856</td>
+                <td>3</td>
+                
+                <td>4926</td>
+                <td>484</td>
+                
+                <td class="right" data-ratio="10495 25259">42%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako___init___py.html">venv/lib/python2.7/site-packages/grako/__init__.py</a></td>
+                <td>12</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="12 14">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako__config_py.html">venv/lib/python2.7/site-packages/grako/_config.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako__unicode_characters_py.html">venv/lib/python2.7/site-packages/grako/_unicode_characters.py</a></td>
+                <td>37</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="33 39">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako__version_py.html">venv/lib/python2.7/site-packages/grako/_version.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_ast_py.html">venv/lib/python2.7/site-packages/grako/ast.py</a></td>
+                <td>102</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="100 140">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_bootstrap_py.html">venv/lib/python2.7/site-packages/grako/bootstrap.py</a></td>
+                <td>820</td>
+                <td>680</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="141 824">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_buffering_py.html">venv/lib/python2.7/site-packages/grako/buffering.py</a></td>
+                <td>274</td>
+                <td>122</td>
+                <td>0</td>
+                
+                <td>78</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="175 352">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_codegen___init___py.html">venv/lib/python2.7/site-packages/grako/codegen/__init__.py</a></td>
+                <td>8</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 10">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_codegen_cgbase_py.html">venv/lib/python2.7/site-packages/grako/codegen/cgbase.py</a></td>
+                <td>98</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 136">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_codegen_objectmodel_py.html">venv/lib/python2.7/site-packages/grako/codegen/objectmodel.py</a></td>
+                <td>87</td>
+                <td>62</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 119">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_codegen_python_py.html">venv/lib/python2.7/site-packages/grako/codegen/python.py</a></td>
+                <td>196</td>
+                <td>93</td>
+                <td>0</td>
+                
+                <td>60</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="103 256">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_color_py.html">venv/lib/python2.7/site-packages/grako/color.py</a></td>
+                <td>40</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="32 40">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_contexts_py.html">venv/lib/python2.7/site-packages/grako/contexts.py</a></td>
+                <td>535</td>
+                <td>138</td>
+                <td>0</td>
+                
+                <td>139</td>
+                <td>37</td>
+                
+                <td class="right" data-ratio="470 674">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_exceptions_py.html">venv/lib/python2.7/site-packages/grako/exceptions.py</a></td>
+                <td>79</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 79">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_grammars_py.html">venv/lib/python2.7/site-packages/grako/grammars.py</a></td>
+                <td>601</td>
+                <td>396</td>
+                <td>0</td>
+                
+                <td>173</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="205 774">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_infos_py.html">venv/lib/python2.7/site-packages/grako/infos.py</a></td>
+                <td>35</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="38 43">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_objectmodel_py.html">venv/lib/python2.7/site-packages/grako/objectmodel.py</a></td>
+                <td>122</td>
+                <td>86</td>
+                <td>0</td>
+                
+                <td>62</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="36 184">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_parser_py.html">venv/lib/python2.7/site-packages/grako/parser.py</a></td>
+                <td>13</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 17">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_parsing_py.html">venv/lib/python2.7/site-packages/grako/parsing.py</a></td>
+                <td>25</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="10 37">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_rendering_py.html">venv/lib/python2.7/site-packages/grako/rendering.py</a></td>
+                <td>82</td>
+                <td>57</td>
+                <td>0</td>
+                
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 122">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_semantics_py.html">venv/lib/python2.7/site-packages/grako/semantics.py</a></td>
+                <td>155</td>
+                <td>111</td>
+                <td>0</td>
+                
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 189">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_synth_py.html">venv/lib/python2.7/site-packages/grako/synth.py</a></td>
+                <td>16</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 22">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_tool_py.html">venv/lib/python2.7/site-packages/grako/tool.py</a></td>
+                <td>103</td>
+                <td>79</td>
+                <td>0</td>
+                
+                <td>26</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="25 129">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_grako_util_py.html">venv/lib/python2.7/site-packages/grako/util.py</a></td>
+                <td>228</td>
+                <td>148</td>
+                <td>0</td>
+                
+                <td>72</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="88 300">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources___init___py.html">venv/lib/python2.7/site-packages/pkg_resources/__init__.py</a></td>
+                <td>1546</td>
+                <td>891</td>
+                <td>3</td>
+                
+                <td>494</td>
+                <td>47</td>
+                
+                <td class="right" data-ratio="742 2040">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor___init___py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_appdirs_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/appdirs.py</a></td>
+                <td>250</td>
+                <td>219</td>
+                <td>0</td>
+                
+                <td>130</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="35 380">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging___about___py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__about__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging___init___py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging__compat_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_compat.py</a></td>
+                <td>12</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="12 14">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging__structures_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_structures.py</a></td>
+                <td>41</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 41">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging_markers_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/markers.py</a></td>
+                <td>130</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td>45</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="62 175">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging_requirements_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/requirements.py</a></td>
+                <td>72</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="50 90">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging_specifiers_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py</a></td>
+                <td>284</td>
+                <td>202</td>
+                <td>0</td>
+                
+                <td>126</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="82 410">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_packaging_version_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/version.py</a></td>
+                <td>150</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td>88</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="141 238">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_pyparsing_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/pyparsing.py</a></td>
+                <td>2533</td>
+                <td>1419</td>
+                <td>0</td>
+                
+                <td>1044</td>
+                <td>126</td>
+                
+                <td class="right" data-ratio="1371 3577">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources__vendor_six_py.html">venv/lib/python2.7/site-packages/pkg_resources/_vendor/six.py</a></td>
+                <td>444</td>
+                <td>204</td>
+                <td>0</td>
+                
+                <td>134</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="283 578">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources_extern___init___py.html">venv/lib/python2.7/site-packages/pkg_resources/extern/__init__.py</a></td>
+                <td>35</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="35 45">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_pkg_resources_py31compat_py.html">venv/lib/python2.7/site-packages/pkg_resources/py31compat.py</a></td>
+                <td>12</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 14">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3___init___py.html">venv/lib/python2.7/site-packages/z3/__init__.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3_py.html">venv/lib/python2.7/site-packages/z3/z3.py</a></td>
+                <td>3797</td>
+                <td>2550</td>
+                <td>0</td>
+                
+                <td>1121</td>
+                <td>63</td>
+                
+                <td class="right" data-ratio="1336 4918">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3consts_py.html">venv/lib/python2.7/site-packages/z3/z3consts.py</a></td>
+                <td>307</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="307 307">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3core_py.html">venv/lib/python2.7/site-packages/z3/z3core.py</a></td>
+                <td>4138</td>
+                <td>1943</td>
+                <td>0</td>
+                
+                <td>32</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="2211 4170">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3num_py.html">venv/lib/python2.7/site-packages/z3/z3num.py</a></td>
+                <td>137</td>
+                <td>84</td>
+                <td>0</td>
+                
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 157">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3poly_py.html">venv/lib/python2.7/site-packages/z3/z3poly.py</a></td>
+                <td>7</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="4 11">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3printer_py.html">venv/lib/python2.7/site-packages/z3/z3printer.py</a></td>
+                <td>948</td>
+                <td>518</td>
+                <td>0</td>
+                
+                <td>370</td>
+                <td>45</td>
+                
+                <td class="right" data-ratio="537 1318">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3rcf_py.html">venv/lib/python2.7/site-packages/z3/z3rcf.py</a></td>
+                <td>114</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 122">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3types_py.html">venv/lib/python2.7/site-packages/z3/z3types.py</a></td>
+                <td>87</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td>108</td>
+                <td>45</td>
+                
+                <td class="right" data-ratio="148 195">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="venv_lib_python2_7_site-packages_z3_z3util_py.html">venv/lib/python2.7/site-packages/z3/z3util.py</a></td>
+                <td>153</td>
+                <td>133</td>
+                <td>0</td>
+                
+                <td>92</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="24 245">10%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang___init___py.html">wlang/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_ast_py.html">wlang/ast.py</a></td>
+                <td>268</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td>28</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="217 296">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_int_py.html">wlang/int.py</a></td>
+                <td>122</td>
+                <td>72</td>
+                <td>0</td>
+                
+                <td>52</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="55 174">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_parser_py.html">wlang/parser.py</a></td>
+                <td>351</td>
+                <td>60</td>
+                <td>0</td>
+                
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="293 355">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_semantics_py.html">wlang/semantics.py</a></td>
+                <td>62</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 70">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_stats_visitor_py.html">wlang/stats_visitor.py</a></td>
+                <td>58</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td>12</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="37 70">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_sym_py.html">wlang/sym.py</a></td>
+                <td>243</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td>112</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="321 355">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_py.html">wlang/test.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>2</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="7 8">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_int_py.html">wlang/test_int.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 14">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_parser_py.html">wlang/test_parser.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_stats_visitor_py.html">wlang/test_stats_visitor.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_sym_py.html">wlang/test_sym.py</a></td>
+                <td>100</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="99 100">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_undef_visitor_py.html">wlang/test_undef_visitor.py</a></td>
+                <td>64</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 64">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_test_util_py.html">wlang/test_util.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_undef_visitor_py.html">wlang/undef_visitor.py</a></td>
+                <td>93</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td>18</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="100 111">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="wlang_util_py.html">wlang/util.py</a></td>
+                <td>36</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td>10</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="8 46">17%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.3</a>,
+            created at 2019-07-27 20:18
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
