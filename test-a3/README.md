@@ -1,3 +1,5 @@
+Requirements refer to [a3.pdf](https://github.com/r24zeng/Software-Testing-Quality-Assurance-and-Maintenance/blob/master/test-a3/a3.pdf)
+
 # ECE653: Software Testing Quality Assurance and Maintenance
 # Assignment 3, Friday, July 26, 2019
 
@@ -18,4 +20,4 @@
    `(venv) $ coverage html`  
    The result is stored in directory `htmlcov`
    
-### More details are in `./a3.pdf`
+
