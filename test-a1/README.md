@@ -1,3 +1,6 @@
+Requirements refer to [ece653-a1.pdf](https://github.com/r24zeng/Software-Testing-Quality-Assurance-and-Maintenance/blob/master/test-a1/ece653-a1.pdf)
+
+
 # ECE653: Software Testing Quality Assurance and Maintenance
 # Assignment 1, Friday, June 7, 2019
 
@@ -19,4 +22,3 @@
    The result is stored in directory `htmlcov`
    
    
-Requirements refer to [ece653-a1.pdf](https://github.com/r24zeng/Software-Testing-Quality-Assurance-and-Maintenance/blob/master/test-a1/ece653-a1.pdf)
