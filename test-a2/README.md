@@ -1,3 +1,6 @@
+Requirements refer to [a2.pdf](https://github.com/r24zeng/Software-Testing-Quality-Assurance-and-Maintenance/blob/master/test-a2/a2.pdf)   
+
+
 # ECE653: Software Testing Quality Assurance and Maintenance
 # Assignment 2, Friday, July 5, 2019
 
@@ -19,5 +22,4 @@
    `(venv) $ coverage run --branch -m wlang.test`  
    `(venv) $ coverage html`  
    The result is stored in directory `htmlcov`
-   
-### More details are in `./a2.pdf`
+
